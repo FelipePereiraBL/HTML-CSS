@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+
+}
