@@ -163,16 +163,24 @@ position-absolute= O elemento se posiciona de acordo com o elemento pai que tenh
 
 \00A0= Espaço
 
-background-size:= Tamanho da imagem
+background-size:= Tamanho da imagem(
+cover= imagem cobre todo o container,
+auto= a imagem é exibida em seu tamanho original,
+lenght(largura altura)= define a largura e a altura da imagem de fundo,
+percentage= define a largura e a altura da imagem de fundo em porcentagem do elemento pai,
+contaim= redimenciona e exibe 100% da imagem)
+
+background-attachment(fixed= Imagem de fundo fica fixada na tela e nao rola junto com a página)
+
 background-repeat: repeat= Repete a imagem de fundo(padrão),
 no-repeat= Não repete a imagem,
 repeat-x= Repete a imagem na horizontal a partir do cansto superior esquerdo,
-repeat-y= Repete a imagem na vertical a partir do cansto superior esquerdo,
+repeat-y= Repete a imagem na vertical a partir do cansto superior esquerdo)
 
 vh= view height(altura da view port);
+vw= view widht(largura da view port)
 
-background-size(contaim= Exibe 100% da immagem, cover= Imagem ocupa 100% da view port)
-background-attachment(fixed= Imagem de fundo ficxa fixada na tela e nao rola junto com a página)
+background-size(
 
 shorthand de background(color- image- position- repeat- [size]- attachment)
 
