@@ -102,6 +102,10 @@ to right= Gradiente na horizontal
 margin auto= centraliza a margem independente do tamanho da janela
 border-radius: px= Bordas arredondadas
 box-shadow= Sombreamento
+box-sixing=usada para calcular larguras (widths) e alturas (heights) dos elementos(
+content-box= as propriedades width (largura) e height (altura) são medidas incluindo só o conteúdo, mas não o padding, border ou margin,
+padding-box as propriedades de largura (width) e de altura (height) incluem o tamanho padding size, mas não incluem a propriedade border ou margem,
+border-box= as propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin)
 
 font-size= Tamanho da fonte
 font-weight= Peso da fonte
@@ -221,3 +225,5 @@ allow-modals= permite abrir janelas modais,
 )
 
 referrerpolicy="no-referrer"= impede que o conteudo do iframe colete informações do usuario
+
+::-webkit-scrollbar{width:0px; height: 0px;}= esconde a barra de rolagem
