@@ -79,3 +79,5 @@ Hierarquia de tabelas grandes(
 O fechamento de tr e td não são obrigatorios
 
 Tamanho padrao do iframe 300x150
+
+Em um elemento a tag name e mais util ao html e ao php, por exemmplo, e a tag id é mais util ao javascript

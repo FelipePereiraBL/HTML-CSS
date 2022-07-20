@@ -227,3 +227,9 @@ allow-modals= permite abrir janelas modais,
 referrerpolicy="no-referrer"= impede que o conteudo do iframe colete informações do usuario
 
 ::-webkit-scrollbar{width:0px; height: 0px;}= esconde a barra de rolagem
+
+autocomplete="off"=não autocompletar os campos do formulario
+action=  especifica para onde enviar os dados do formulário quando um formulário é enviado
+input= espaço para colocar dados
+label= representa uma legenda para um elemento html
+for= parametro do label que o relaciona com o input atraves do id
