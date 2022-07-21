@@ -2,7 +2,7 @@ Internet= Conjumnto de redes de computador
 
 HTTP= Protocolo de navegação web
 
-TCP/IP= Conjunto de protocolos de comunicação(TCP faz a entrega dos dados em pacotes/IP obtemm o endereço que identifica cada maquina na rede)
+TCP/IP= Conjunto de protocolos de comunicação(TCP faz a entrega dos dados em pacotes/IP obtem o endereço que identifica cada maquina na rede)
 
 URL= Endereço do site
 
@@ -40,7 +40,7 @@ Decimal= 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 Hexadecimal= 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
 
 Medidas absolutas= cm(centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(paica)
-Medidas Relativas= em(Relativo ao tamanho atual da fonte), ex(Relativo a altura x), rem(Relativo a fonte do body), vwvw(Relativo ao largura da tela), vh(Relativo a altura da tela), %
+Medidas Relativas= em(Relativo ao tamanho atual da fonte), ex(Relativo a altura x), rem(Relativo a fonte do body), vw(Relativo a largura da tela), vh(Relativo a altura da tela), %
 
 Fontes handwritten= Fontes que imitam letra cursiva
 

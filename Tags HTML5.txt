@@ -1,3 +1,6 @@
+CTRL+Shift+P= Envelopar texto(Coloca as tags automaticamente)
+
+--------------HTML BASICO--------------------------
 <!DOCTYPE html>= Definir HTML5
 <html lang="">= Define a linguagem nativca da pagina
 
@@ -11,6 +14,7 @@
 <header></header>= Cabeçalho (Configurações)
 <body></body>= Corpo da pagina
 
+------------ELEMENTOS HTML------------- 
 <h*></h*> (1...6)= Titulo
 <hr>= Linha horizontal
 <p></p>= Paragrafo
@@ -24,9 +28,9 @@
 
 link.favicon= Icone de favorito da pagina
 Lorem= gerador de paragrafo automatico
-<address></address>= Mostrar texto como endereço
 
-CTRL+Shift+P= Envelopar texto(Coloca as tags automaticamente)
+-----------------FORMATAÇÕES-------------
+<address></address>= Mostrar texto como endereço
 <strong></strong>= Termo em destaque(negrito)
 <em></em>= Termo em emfase(itálico)
 <mark></mark>= Marcação de texto
@@ -44,23 +48,30 @@ CTRL+Shift+P= Envelopar texto(Coloca as tags automaticamente)
 <code></code>= Fonte mono-espaçada(Reserva o mesmo espaço para todas as letras)
 <pre></pre>= Formatação de texto que obedece as quebras de linha
 <q></q>= Citações(Coloca aspas no texto)
-<blockquote></blockquote>= Citação deslocada horizontalmente com paramettro cite(link do autor da citação)
+<blockquote></blockquote>= Citação deslocada horizontalmente com parametro cite(link do autor da citação)
 <abbr><abbr>= Exibe um pequeno texto com o significado do termo
 <bdo dir="rtl"></bdo>= Mostra o texto invertido
 <bdo dir="ltr"></bdo>= Mostra o texto normalmente
 
+---------------LISTAS-----------------------------------------------
 <ol></ol>= Order List(Lista Ordenada, onde a ordem importa) 
 <ul></ul>= Unorder List(Lista não Ordenada, onde a ordem não importa)
+
 Parametros dentro de <ol>= type(Tipo da lista(1, A, a, I, i), start(Por onde a lista começa)
 Parametro dentro de <ul>= type(Tipo de lista(disc(circulo fechado), square(quadradinho), circle(circulo aberto)))
+
 <li></li>= List Iten(Item da lista) (</li> opcional)
 <dl></dl>= Definition List(Lista de definição)
+
 <dt></dt>= Termo
 <dd></dd>= Definição
+
 colums:= Quantidade de colunas
+
 list-style-position:inside= Simbolo de lista para dentro
 list-style-type= '\ + numero do simbolo + \00A0 para das espaço'= Muda o simbolo da lista(Não é compativel com todos os navegadores)
 
+-----------LINK----------------------------------
 <a href""></a>= Ancora para inserir link
 Parametros dentro de <a href>= target="_blank"(Abrir página em nova aba), 
 target="_self"/ou nada(Abrir página na mesma aba)
@@ -72,7 +83,8 @@ ref="dofollow"(Indica ao mecanismo de busca que pode considerar a pagina à qual
 download="Nome do arquivo"(Nome do arquivo que vai ser baixado por esse link),type="iana.org"(Media Type do arquivo)
 ../= Volta uma página
 
-<picture></picture>= Contem varias immagens com formatos diferentes e escolhe a mais adequada de acordo com o layout do navegador
+----------------------MIDIA-------------------------------
+<picture></picture>= Contem varias imagens com formatos diferentes e escolhe a mais adequada de acordo com o layout do navegador
 Parametros dentro de <picture>= source media""(Expecifica a largura minima ou maxima), 
 srcset=""(Caminho da imagem alternativa), type""(Tipo de imagem)
 
@@ -87,21 +99,27 @@ Formatos de video= MPEG(.mp4, .m4v), WEBM(Arquivo pequeno com qualidae ruim), OG
 <video></audio>= Inserir video na página
 Parametro dentro da tag <video>= poster(Inserir tumbnail)
 
-style="text-align: justify;"= Alinha o texto
-
-link:css= Pega os estilos de um arquivo css
+---------------------CSS----------------------------
 @charset "UTF-8"(no CSS)= Compatibilidade com acentuação
+
+*=Configuração global CSS
+
+text-align: justify;= Alinha o texto
+text-indent:(px)= Espaço antes do inicio do paragrafo
 
 color(nome da cor, hexadecimal, RGB ou hsl)
 
-seletor(dentro do style) com *=Configuração global CSS
 background-attachment: fixed= Impede que o degrade plano de fundo da página role
 linear-gradient= Gradiente em forma de linha
 radial-gradient(circle)= Gradiente em forma de circilo
 to right= Gradiente na horizontal
+
 margin auto= centraliza a margem independente do tamanho da janela
-border-radius: px= Bordas arredondadas
-box-shadow= Sombreamento
+
+box-shadown(Horiz()Px Vert()Px Blur()Px Expalha()Px Cor)= Sombra de caixa
+Outset= Externa
+Inset= Interna
+
 box-sixing=usada para calcular larguras (widths) e alturas (heights) dos elementos(
 content-box= as propriedades width (largura) e height (altura) são medidas incluindo só o conteúdo, mas não o padding, border ou margin,
 padding-box as propriedades de largura (width) e de altura (height) incluem o tamanho padding size, mas não incluem a propriedade border ou margem,
@@ -114,12 +132,23 @@ text-decoration: underline= Sublinhado
 shorthand= Condensa e simplifica as linhas de cogigo(exemplo: font: font-style font-weight font-size font-family)
 line-height= Altura entre linhas
 
-text-indent:(px)= Espaço antes do inicio do paragrafo
-id=""= Identificador
+display= Faz o elemento se comportar como uma caixa e especifica o  tipo de caixa de renderização de um elemento(none= o elemento some, in line= em linha(valor padrão), block= em bloco)
+
+--------------BORDAS------------------------
+border-radius: px= Bordas arredondadas
+border-image-source: url('caminho da imagem')= Adiciona uma borda a partir de um png
+border-image-slice: numero qualquer= Fatiar a imagem borda
+border-image-repeat:(repeat= Repete a imagem da borda,
+stretch= Estica a imagem da borda
+dashed= linha pontilhada
+solid= cor solida
+
+----------CLASSE E ID-----------------------
 Em HTML se coloca o id e em CSS se coloca # 
 Em HTML se coloca class e em CSS se coloca .
-<span></span>= Não representa nada. Usado para agrupar elemntos com id ou class
 
+---------DIVS--------------------------
+<span></span>= Não representa nada. Usado para agrupar elemntos com id ou class
 <div></div>= Um espaço qualquer
 <section></section>=Conteudo de fluxo(lista de resultados de pesquisa ou a exibição de um mapa e seus controles etc...)
 <header></header>= Cabeçalho
@@ -128,8 +157,8 @@ Em HTML se coloca class e em CSS se coloca .
 <article></article>= Artigo, noticia, post etc...
 <aside></aside>= Avisos, biografia do autor, assuntos relacionados, informações de perfil, links, aplicações web etc...
 <footer></footer> Rodapé
-display= Faz o elemento se comportar como uma caixa e especifica o  tipo de caixa de renderização de um elemento(none= o elemento some, in line= em linha(valor padrão), block= em bloco)
 
+---------------PSEUDO-CLASSE E PSEUDO-ELEMENTO------------------
 Pseudo-classe(:)= Configura o que fazer dependendo do estado de um elemento(
 hover= Passando o mouse por cima,
 visited= link que já foi visitado,
@@ -137,36 +166,22 @@ actived= link sendo clicado,
 nth-child(*n(de quantos em quantos) ou odd/2n-1(todos os impares) ou even/2n(todos os pares))=seleciona elementos com base em suas posições em um grupo de elementos irmãos.
 root= Raiz da arvore do documento)
 
+transition-duration= Tempo de transição(ex: Tempo de duração de hover depois de passar o mouse sobre elemento)
+
 >= Filho de ...
 
 Pseudo-elemento(::)= Personalizar uma parte especifica do elemento(
 after= depois do elemento,
 before= depois do elemento)
 
-marigin: auto;= Centraliza o elemento no meio
-
 content= Conteudo
-
-box-shadown(Horiz()Px Vert()Px Blur()Px Expalha()Px Cor)= Sombra de caixa
-Outset= Externa
-Inset= Interna
-
-border-radious= Raio da borda
-
-border-image-source: url('caminho da imagem')= Adiciona uma borda a partir de um png
-border-image-slice: numero qualquer= Fatiar a imagem borda
-border-image-repeat:(repeat= Repete a imagem da borda,
-stretch= Estica a imagem da borda
-dashed= linha pontilhada
-solid= cor solida
-
-transition-duration= Tempo de transição(ex: Tempo de duração de hover depois de passar o mouse sobre elemento)
 
 position-relative= O elemento passa a aceitar as propriedades Top, Bottom, Left e Right. Com elas você pode alterar o posicionamento do elemento. 
 position-absolute= O elemento se posiciona de acordo com o elemento pai que tenha um position diferente de static.
 
 \00A0= Espaço
 
+-----------------BACKGROUND-------------------
 background-size:= Tamanho da imagem(
 cover= imagem cobre todo o container,
 auto= a imagem é exibida em seu tamanho original,
@@ -228,8 +243,14 @@ referrerpolicy="no-referrer"= impede que o conteudo do iframe colete informaçõ
 
 ::-webkit-scrollbar{width:0px; height: 0px;}= esconde a barra de rolagem
 
-autocomplete="off"=não autocompletar os campos do formulario
+autocomplete(no formm)= autocompletar ou não os campos do formulario
+autocompletar(nos inputs)= especifica o que vai autocompletar nesse campo
 action=  especifica para onde enviar os dados do formulário quando um formulário é enviado
 input= espaço para colocar dados
 label= representa uma legenda para um elemento html
 for= parametro do label que o relaciona com o input atraves do id
+
+required= parametro do input que torna o campo obrigatorio
+minlenght/maxlenght= parametro do input que especifica a quantidade minima e maxima de caracteres no campo
+sixe= parametro do input que especifica quantos caracteres serão mostrados no campo por vez
+placehouder= parametro do input que indica qual texto deve ser digitado no cammpo
