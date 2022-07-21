@@ -251,6 +251,7 @@ label= representa uma legenda para um elemento html
 for= parametro do label que o relaciona com o input atraves do id
 
 required= parametro do input que torna o campo obrigatorio
-minlenght/maxlenght= parametro do input que especifica a quantidade minima e maxima de caracteres no campo
+minlenght/maxlenght= parametro do input que especifica a quantidade minima e maxima de caracteres no campo(min/max= quando é numerico)
 sixe= parametro do input que especifica quantos caracteres serão mostrados no campo por vez
-placehouder= parametro do input que indica qual texto deve ser digitado no cammpo
+placehouder= parametro do input que indica qual texto deve ser digitado no cammpo]
+step= parametro do input que especifica de quanto em quanto o valor da caixa numerica vai mudar
