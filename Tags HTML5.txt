@@ -255,3 +255,6 @@ minlenght/maxlenght= parametro do input que especifica a quantidade minima e max
 sixe= parametro do input que especifica quantos caracteres serão mostrados no campo por vez
 placehouder= parametro do input que indica qual texto deve ser digitado no cammpo]
 step= parametro do input que especifica de quanto em quanto o valor da caixa numerica vai mudar
+value= especifica com qual valor o campo vai ser iniciado
+fieldset= agrupa os campos em uma caixa
+legend= coloca uma legenda no fieldset
