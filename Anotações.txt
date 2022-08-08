@@ -83,4 +83,4 @@ Tamanho padrao do iframe 300x150
 Em um elemento a tag name e mais util ao html e ao php, por exemmplo, e a tag id é mais util ao javascript
 
 GET= metodo padrão para envio de dados no http. Os parametros são passados no cabeçalho da página e são visiveis na URL, até 3000bytes no maxima
-POST= metodo alternativo ao get mas NÃO é mais segura do que o mesmo. Os parametros são passados no corpo da página e não são visiveis na URL,mmelhor para enviar dados sensiveis, permite envio de arquivos
+POST= metodo alternativo ao get mas NÃO é mais segura do que o mesmo. Os parametros são passados no corpo da página e não são visiveis na URL,melhor para enviar dados sensiveis, permite envio de arquivos

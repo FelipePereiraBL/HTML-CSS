@@ -211,6 +211,7 @@ transform: translate( reposiciona um elemento na direção horizontal e/ou verti
 text-transform: uppercase= Deixa todas as letras do texto maiusculas
 font-variant:small-caps= Deixa todas as letras maiusculas porém a primeira letra de cada palavra é maior
 
+---------------TABELA-----------------------------
 <table></table>= Tabela
 <tr></tr>(Table Row)= Linha da tabela
 <td></td>(Table date)= Dado da tabela
