@@ -259,3 +259,7 @@ step= parametro do input que especifica de quanto em quanto o valor da caixa num
 value= especifica com qual valor o campo vai ser iniciado
 fieldset= agrupa os campos em uma caixa
 legend= coloca uma legenda no fieldset
+
+input-radio= apenas uma opção pode ser  marcada e todas os inputs tem que ter o mesmo name
+input-checkbox= varias opções podem ser marcadas
+checked= faz essa opção estar marcada por padrão
