@@ -254,7 +254,7 @@ for= parametro do label que o relaciona com o input atraves do id
 required= parametro do input que torna o campo obrigatorio
 minlenght/maxlenght= parametro do input que especifica a quantidade minima e maxima de caracteres no campo(min/max= quando é numerico)
 sixe= parametro do input que especifica quantos caracteres serão mostrados no campo por vez
-placehouder= parametro do input que indica qual texto deve ser digitado no cammpo]
+placehouder= parametro do input que indica qual texto deve ser digitado no campo,
 step= parametro do input que especifica de quanto em quanto o valor da caixa numerica vai mudar
 value= especifica com qual valor o campo vai ser iniciado
 fieldset= agrupa os campos em uma caixa
@@ -267,3 +267,9 @@ checked= faz essa opção estar marcada por padrão
 color= seletor de cor,
 range= seletor de valores numericos,
 file= seletor de imagens(só funciona com method POST)
+
+select= menu de opções,
+option= opções dentro do select,
+optgroup= agrupa um conjunto de opções e identifica com atributo label,
+datalist= lista de opções que podem ser sugeridas em um input-text,
+text-area= area para o usuario escrever uma mensagem(ideal usar o method="POST")
