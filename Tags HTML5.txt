@@ -273,3 +273,5 @@ option= opções dentro do select,
 optgroup= agrupa um conjunto de opções e identifica com atributo label,
 datalist= lista de opções que podem ser sugeridas em um input-text,
 text-area= area para o usuario escrever uma mensagem(ideal usar o method="POST")
+output= espaço para mostrar a saida de dados,
+oninput= quando houver entrada de dados
