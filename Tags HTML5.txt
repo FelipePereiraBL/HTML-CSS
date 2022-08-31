@@ -227,6 +227,8 @@ vertical-alignt= Alinhamento vertical em (top, middle ou bottom)
 
 overfflow= Especifica se deve cortar o conteúdo ou adicionar barras de rolagem quando o conteúdo de um elemento é muito grande para caber na área especificada
 
+
+---------------IFRAME-----------------------------
 scolling(auto, yes ou no)= especificar se a barra de rolagem será exibida ou não no <Iframe>
 
 frameboard(0 ou 1)= borda do iframe
@@ -244,6 +246,7 @@ referrerpolicy="no-referrer"= impede que o conteudo do iframe colete informaçõ
 
 ::-webkit-scrollbar{width:0px; height: 0px;}= esconde a barra de rolagem
 
+---------------fORMULARIO-----------------------------
 autocomplete(no formm)= autocompletar ou não os campos do formulario
 autocompletar(nos inputs)= especifica o que vai autocompletar nesse campo
 action=  especifica para onde enviar os dados do formulário quando um formulário é enviado
@@ -275,3 +278,11 @@ datalist= lista de opções que podem ser sugeridas em um input-text,
 text-area= area para o usuario escrever uma mensagem(ideal usar o method="POST")
 output= espaço para mostrar a saida de dados,
 oninput= quando houver entrada de dados
+
+---------------MEDIA QUERIE-----------------------------
+
+media=""= parametro de link:css(
+    screen= para ser mostrado na tela,
+    print= para impressora
+)
+display: none;= elemento não sera exibido
