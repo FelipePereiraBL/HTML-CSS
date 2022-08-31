@@ -281,8 +281,14 @@ oninput= quando houver entrada de dados
 
 ---------------MEDIA QUERIE-----------------------------
 
-media=""= parametro de link:css(
+media-query(media="media-type and (media-features)")
+media-type(
     screen= para ser mostrado na tela,
-    print= para impressora
+    print= para impressora,
+    all= configuração que vale para todos os dispositivos
 )
+media-features(
+    orientation:portrait= orientado como retrato,
+    orientation:landscape= orientado como paisagem
+) 
 display: none;= elemento não sera exibido
