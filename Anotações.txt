@@ -88,3 +88,5 @@ POST= metodo alternativo ao get mas NÃO é mais segura do que o mesmo. Os param
 media-queries= recurso do CSS 3 que permite que a renderização de conteúdo se adapte a diferentes condições, como resolução de tela (por exemplo, tamanho da tela móvel e desktop)
 
 media-query(media-type=tipo de midia + media-features= caracteristica de midia(entre parenteses))
+
+no papel não tem commo imprimir background

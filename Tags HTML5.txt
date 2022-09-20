@@ -246,7 +246,7 @@ referrerpolicy="no-referrer"= impede que o conteudo do iframe colete informaçõ
 
 ::-webkit-scrollbar{width:0px; height: 0px;}= esconde a barra de rolagem
 
----------------fORMULARIO-----------------------------
+---------------FORMULARIO-----------------------------
 autocomplete(no formm)= autocompletar ou não os campos do formulario
 autocompletar(nos inputs)= especifica o que vai autocompletar nesse campo
 action=  especifica para onde enviar os dados do formulário quando um formulário é enviado
