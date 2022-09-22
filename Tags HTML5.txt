@@ -291,4 +291,8 @@ media-features(
     orientation:portrait= orientado como retrato,
     orientation:landscape= orientado como paisagem
 ) 
-display: none;= elemento não sera exibido
+
+---------------JAVASCRIPT-----------------------------
+
+onclick=""= chamada uma função atraves do evento de click
+onresize=""= chamada uma função atraves do evento de mudar o tamanho da tela

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    #idBurger{
+        display: none;
+    }
+
+    #idMenu{
+        display: block;
+        text-align: center;
+    }
+
+    #idMenu ul li {
+        display: inline-block ;
+        margin-bottom: 10px;
+    }
+
+    #idMenu ul li a{
+        border-radius: 10px;
+    }
+
+    main{
+        max-width: 760px;
+    }
+}
